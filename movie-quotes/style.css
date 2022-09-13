@@ -158,6 +158,7 @@ p {
 .picture {
   height: 300px;
   border-radius: 500px;
+  border: 2px solid rgb(255, 0, 0);
 }
 
 .pic-right {
@@ -175,12 +176,3 @@ p {
 }
 
 
-
-.left-fade {
-  left: 0%;
-
-}
-
-.right-fade {
-  right: 0px;
-}
