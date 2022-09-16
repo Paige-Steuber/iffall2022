@@ -1,0 +1,206 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    padding: 20px;
+    color: rgb(70, 39, 0);
+    background-color: rgb(251, 241, 226);
+}
+section {
+    display: block;
+    position: relative;
+    margin: 40px 0;
+    margin-top: 60px;
+}
+.title{
+    
+    width: 20%;
+    margin: 0;
+    position: fixed;
+}
+.not-title{
+    float: right;
+    width: 70%;
+    height: fit-content;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+h1 {
+    font-size: 110px;
+    margin-left: -200px;
+    margin-top: 326px;
+    transform: rotate(-90deg);
+    float: left;
+
+}
+h3{
+    size: 50px;
+    font-weight: 900;
+}
+section h1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+p{
+    padding-left: 20px;
+}
+.disc{
+    color: rgb(157, 137, 113);
+    font-size: 10px;
+    margin-left: -10px;
+    
+}
+
+/* font weigh */
+.lighter {
+    font-weight: lighter;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+/* font style */
+.normal {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+
+    font-style: oblique;
+}
+
+/* letter spacing */
+.normal-spacing {
+    letter-spacing: normal;
+}
+
+.rem {
+    letter-spacing: 1rem;
+}
+
+.px {
+    letter-spacing: 10px;
+}
+
+.ch {
+    letter-spacing: 3ch;
+}
+
+/* text transform */
+.unset {
+    text-transform: unset;
+}
+
+.capitalize {
+    text-transform: capitalize;
+
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* text decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.dotted {
+    text-decoration: underline dotted brown;
+
+}
+
+.wavy {
+    text-decoration: underline wavy;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(253, 239, 217);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(70, 39, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+/* loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    margin: -76px 0 0 -76px;
+    border: 14px solid rgb(70, 39, 0);
+    border-radius: 50%;
+    border-top: 14px solid white;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    
+  }
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }  

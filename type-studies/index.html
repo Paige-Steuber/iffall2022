@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="title">
+            <h1>
+                Merriweather
+            </h1>
+        </div>
+        <div class="not-title">
+            <h2>
+                Font-family: 'Merriweather', serif
+            </h2>
+            <h2>
+                Font-size: 14px
+            </h2>
+            <section class="weight">
+                <h3>
+                    Font-weight 
+                </h3>
+                <p class="disc">font-weight: lighter;</p>
+                <p class="lighter">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">font-weight: normal;</p>
+                <p class="normal">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">font-weight: bold;</p>
+                <p class="bold">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">font-weight: bolder;</p>
+                <p class="bolder">I often see the time 11:11 or 12:34 on clocks.</p>
+                
+            </section>
+
+            <section class="font-style">
+                <h3>
+                    Font-style
+                </h3>
+                <p class="disc">font-style: normal;</p>
+                <p class="normal-style">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">font-style: italic;</p>
+                <p class="italic">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">font-style: oblique;</p>
+                <p class="oblique">I often see the time 11:11 or 12:34 on clocks.</p>
+               
+
+            </section>
+
+            <section class="letter-spacing">
+                <h3>
+                    Letter-spacing
+                </h3>
+                <p class="disc">letter-spacing: normal;</p>
+                <p class="space-normal">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">letter-spacing: 10px;</p>
+                <p class="px">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">letter-spacing: 1rem;</p>
+                <p class="rem">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">letter-spacing: 3ch;</p>
+                <p class="ch">I often see the time 11:11 or 12:34 on clocks.</p>
+                
+            </section>
+
+            <section class="text-transform">
+                <h3>
+                    Text-transform
+                </h3>
+                <p class="disc">text-transform: unset;</p>
+                <p class="unset">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">text-transform: capitalize;</p>
+                <p class="capitalize">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">text-transform: lowercase;</p>
+                <p class="lowercase">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">text-transform: uppercase;</p>
+                <p class="uppercase">I often see the time 11:11 or 12:34 on clocks.</p>
+              
+
+            </section>
+
+            <section class="text-decoration">
+                <h3>
+                    Text-decoration:
+                </h3>
+                <p class="disc">text-decoration: underline;</p>
+                <p class="underline">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">text-decoration: underline dotted brown; </p>
+                <p class="dotted">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">text-decoration: underline wavy;</p>
+                <p class="wavy">I often see the time 11:11 or 12:34 on clocks.</p>
+                <p class="disc">text-decoration: line-through;</p>
+                <p class="line-through">I often see the time 11:11 or 12:34 on clocks.</p>
+                
+            </section>
+        </div>
+    </div>
+</body>
+<script>
+    var myVar;
+
+    function myFunction() {
+        myVar = setTimeout(showPage, 2000);
+    }
+
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+    }
+</script>
+
+
+
+</html>
