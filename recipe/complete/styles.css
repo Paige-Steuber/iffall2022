@@ -6,7 +6,74 @@ h2 {
     font-size: medium;
 }
 
+.full_image {
+    width: 100%;
+    height: 230px;
+
+}
+
+.full_image.top {
+    width: 100%;
+    height: 230px;
+    background-image: url("hello.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 1500px;
+    object-fit: contain;
+    margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .full_image.top {
+        height: 150px;
+        margin-bottom: 40px;
+    }
+}
+
+.full_image.middle {
+    margin-top: 200px;
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1800px;
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+    background-image: url("recipe-for-german-farmers-bread-1446678_make-dough-step-01-24e05df77a9f489f9885172b261c6e42.jpg");
+}
+
+@media only screen and (max-width: 600px) {
+    .full_image.middle{
+
+        height: 150px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+.full_image.bottom {
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1800px;
+    object-fit: contain;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 231, 123);
+    bottom: 0;
+}
+
+.header_wrap_wrap {
+    top: 0%;
+    width: 100%;
+    position: absolute;
+}
+
 .header_wrap {
+    top: 0%;
+
     border-radius: 25px;
     width: 85%;
     margin-left: auto;
@@ -20,8 +87,22 @@ h2 {
     column-gap: 2%;
 }
 
+@media only screen and (max-width: 600px) {
+    .header_wrap h3 {
+        display: none;
+        width: 17%;
+    }
+}
+
 .header_wrap h1 {
     font-size: x-large;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header_wrap h1 {
+        font-size: 20px;
+        line-height: 17px;
+    }
 }
 
 .header_wrap h3 {
@@ -31,25 +112,77 @@ h2 {
     font-size: smaller;
 }
 
+.intro_wrap{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.intro_wrap h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+.intro_wrap h4{
+    /* line-height: 5px; */
+    margin-top: 6px;
+    margin: 3px;
+}
+@media only screen and (max-width: 600px) {
+    .intro_wrap h4 {
+        font-size: 13px;
+        margin: 0;
+        line-height: 17px;
+    }
+}
+
+.intro_wrap p{
+    font-style: italic;
+    font-size: 18px;
+
+}
+
 .prep {
     width: 60%;
 }
 
-.main{
-    background-color: aliceblue;
+.main {
+    /* background-color: aliceblue; */
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+
+}
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 85%;
+    
+    }
 }
 
 
 .ingredients_wrap {
+    box-sizing: border-box;
+    border-color: rgb(92, 92, 92);
+    border: 1px;
+    border-style: solid;
     background-color: rgb(92, 92, 92);
     color: white;
     padding: 1%;
     padding-left: 5%;
-    width: 33%;
+    width: 90%;
+    font-size: 15px;
 
+}
+
+@media only screen and (max-width: 600px) {
+    .ingredients_wrap {
+        width: 100%;
+        font-size: 11px;
+    }
 }
 
 .ingredients_wrap ul {
@@ -60,4 +193,65 @@ h2 {
 
 .ingredients_wrap li {
     width: 100%;
+}
+
+.a_z_wrap {
+    box-sizing: border-box;
+    border-color: rgb(92, 92, 92);
+    border: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    background-color: rgb(255, 231, 123);
+    padding: 1%;
+    padding-left: 5%;
+    width: 90%;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .a_z_wrap {
+        width: 100%;
+        font-size: 11px;
+    }
+}
+
+.a_z_wrap ul {
+    padding-left: 5%;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.a_z_wrap li {
+    width: 100%;
+}
+
+.a_z_wrap p {
+    margin-top: -10px;
+    font-style: italic;
+}
+
+.directions_wrap {
+
+    display: grid;
+    width: 92%;
+}
+
+@media only screen and (max-width: 600px) {
+    .directions_wrap {
+        width: 100%;
+        font-size: small;
+    }
+}
+
+
+.recipe_wrap {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+@media only screen and (max-width: 600px) {
+    .recipe_wrap {
+        display: block;
+    }
 }
