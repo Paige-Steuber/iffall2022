@@ -111,14 +111,27 @@
                 </div>
             </div>
             <div class="review_wrap">
-                <h2>Reviews</h2>
-                <p class="quote">
+                <div class="reviews">
+                    <h2>Reviews</h2>
+                    <p class="quote">
+                        "Great recipe and so versatile. The only comment I have is that 2 tsp of cinnamon is too overpowering. I have cut it back to 1 tsp and this allows the A to Z flavors to come through. Otherwise, all you taste is cinnamon."
+                    </p>
+                    <p> JUDYBOLTON
+                    </p>
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+             
+                    <p class="quote">
+                        "Moist and lovely! I used 1 cup of a mix of frozen blueberries and fresh raspberries, and 1 cup banana. I decided to give it a try, and it cooked up lovely in my abm, too :)"
+                    </p>
+                    <p>VELCROWMISTRESS
+                    </p>
+                    <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    <a>See More...</a>
+                </div>
+                <div class="review_image">
+                    <img src="bread.webp" alt="bread" class="breadpic">
+                </div>
 
-                </p>
-                <p class="quote">
-
-                </p>
-                <h3>See More...</h4>
 
             </div>
 
@@ -127,31 +140,7 @@
     </div>
 </body>
 
-<script>
-    //Hamburger Menu
-    $(document).ready(function ($) {
-        if ($(window).width() < 960) {
-            $('.nav-horizontal').hide();
-        } else {
-            $('.mobile-nav').hide();
-        }
-        $('.menu-btn').click(function () {
-            $('.responsive-menu').toggleClass('expand')
-        });
-    });
 
-    //Screen resize testing
-    $(window).resize(function () {
-        if ($(window).width() < 960) {
-            $('.nav-horizontal').hide();
-            $('.mobile-nav').show();
-        } else {
-
-            $('.mobile-nav').hide();
-            $('.nav-horizontal').show();
-        }
-    });
-</script>
 
 
 </HTML>
