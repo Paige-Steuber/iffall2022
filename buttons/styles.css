@@ -607,6 +607,16 @@
      border: 3px solid rgb(147, 29, 29), 1px solid rgb(218, 215, 201);
 
  }
+ a#btn_dimecitycycles:hover {
+
+   
+    background-color: rgb(218, 215, 201);
+    color: rgb(147, 29, 29);
+    transform: rotate(-.05turn);
+    border-radius: 100px;
+    border: 3px solid rgb(147, 29, 29), 1px solid rgb(218, 215, 201);
+
+}
 
 
  a#btn_cartoonnetwork {
@@ -769,18 +779,23 @@ a#btn_nike:hover:before {
      text-decoration: none;
      padding: 20px;
      background-color: green;
-
+     background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(105,212,95,1) 31%, rgba(143,246,142,1) 100%);
+    transition: all 1s linear;
+    border-radius: 10px;
+    color: darkgreen;
  }
 
  a#btn_missouribotanicalgarden:hover {
-
+    background: rgb(90,184,83);
+background: linear-gradient(63deg, rgba(90,184,83,1) 0%, rgba(105,212,95,1) 31%, rgba(255,255,255,1) 100%);
 }
 
 
  a#btn_instagram {
      display: inline-block;
      margin: auto;
-     margin-top: 100px;
+     margin-top: 50px;
      text-decoration: none;
      padding: 20px;
      font-size: 80px;
@@ -820,7 +835,18 @@ a#btn_nike:hover:before {
      display: inline-block;
      margin: auto;
      margin-top: 100px;
-     text-decoration: none;
-     padding: 20px;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color:#d53dff;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: all 1s;
 
+
+
+ }
+ a#btn_thecolorrun:hover{
+    text-shadow: -9px 0px 4px rgba(21, 0, 251, 0.5), 9px 0px 4px rgba(255, 0, 0, 0.5), 0px 9px 4px rgba(81, 255, 0, 0.997), 0px -9px 4px rgb(212, 255, 0), 0px 0px 4px rgba(253, 253, 253, 0.69);
+    font-weight: 900;
  }
