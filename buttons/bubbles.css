@@ -1,0 +1,252 @@
+a#btn_coca_cola {
+    font-family: Unity, "Gotham A", "Gotham B";
+    font-size: 24px;
+    /* padding: 12px 30px; */
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: rgb(240, 240, 240);
+    color: #f40000;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: all .2s;
+    
+
+}
+
+.coco-title {
+    padding-top: 10px;
+    z-index: 1000;
+}
+
+a#btn_coca_cola::before {
+    background-color: #eb1478;
+}
+
+a#btn_coca_cola:hover {
+    color: #f40000;
+    background-color: rgb(60, 49, 49);
+    box-shadow: 2px 2px #f40000 ;
+}
+
+
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 10px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 10px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 10px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+a#btn_coca_cola:hover .b1 {
+    /* position:relative; */
+
+    margin-left: 100px;
+    left: 300;
+    background-color: rgb(240, 240, 240);
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    
+   -webkit-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: -5%;
+   top: 80%;
+
+   -webkit-transform: scale(0.6);
+   -moz-transform: scale(0.6);
+   transform: scale(0.6);
+}
+
+a#btn_coca_cola:hover .b2 {
+
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    border-radius: 100px;
+    background-color: rgb(240, 240, 240);
+    
+   -webkit-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: -5%;
+   top: 120%;
+
+   -webkit-transform: scale(0.6);
+   -moz-transform: scale(0.6);
+   transform: scale(0.6);
+
+}
+
+a#btn_coca_cola:hover .b3 {
+
+   width: 9px;
+   height: 9px;
+   margin-left: 80px;
+   border-radius: 100px;
+   background-color: rgb(240, 240, 240);
+   
+   -webkit-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: -5%;
+   top: 70%;
+
+   -webkit-transform: scale(0.6);
+   -moz-transform: scale(0.6);
+   transform: scale(0.6);
+
+}
+
+a#btn_coca_cola:hover .b4 {
+   width: 15px;
+   height: 15px;
+   margin-left: 140px;
+   border-radius: 100px;
+   background-color: rgb(240, 240, 240);
+   
+   -webkit-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: -5%;
+   top: 160%;
+
+   -webkit-transform: scale(0.6);
+   -moz-transform: scale(0.6);
+   transform: scale(0.6);
+}
+
+
+
+a#btn_coca_cola:hover .bubble {
+   /* background-color: rgb(240, 240, 240); */
+
+   position: absolute;
+
+}
+
+a#btn_coca_cola:hover .b5 {
+   margin-top: -0px;
+   width: 12px;
+   height: 12px;
+   margin-left: 30px;
+   border-radius: 100px;
+   background-color: rgb(240, 240, 240);
+
+   -webkit-animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 0%;
+    top: 220%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+
+}
+
+a#btn_coca_cola:hover .b6 {
+   margin-top: -0px;
+   width: 18px;
+   height: 18px;
+   margin-left: 160px;
+   border-radius: 100px;
+   background-color: rgb(240, 240, 240);
+
+   -webkit-animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 0%;
+    top: 190%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+
+}
+
+a#btn_coca_cola:hover .b7 {
+  
+   width: 8px;
+   height: 8px;
+   margin-left:  150px;
+   border-radius: 100px;
+   background-color: rgb(240, 240, 240);
+
+   -webkit-animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 0%;
+    top: 150%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+
+}
+
+
+a#btn_coca_cola:hover .b8 {
+  
+   width: 15px;
+   height: 15px;
+   margin-left:  15px;
+   border-radius: 100px;
+   background-color: rgb(240, 240, 240);
+
+   -webkit-animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 0%;
+    top: 120%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+
+}
+
+
+
+
+
+
+
+
+
