@@ -1,0 +1,267 @@
+* {
+    max-width: 100%;
+    font-family: 'Cairo';
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+/* Above the fold */
+
+.above_the_fold_img_wrap {
+
+    position: absolute;
+    width: 80%;
+    height: 144vh;
+    left: -10px;
+    top: -353px;
+
+
+    background: url(images/Liquid_Sunshine.webp);
+    background-size: 85%;
+    background-repeat: no-repeat;
+
+
+}
+
+.above_the_fold_text_wrap {
+    width: 460px;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #000000;
+    color: white;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 30%;
+
+}
+
+#above_the_fold {
+    z-index: -2;
+    background-color: black;
+    padding: 20px;
+    height: 100vh;
+}
+
+#above_the_fold ul {
+    z-index: 10;
+    position: relative;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #000000;
+    color: white;
+    /* position: absolute; */
+    margin-left: 65%;
+    margin-top: 10%;
+    width: 300px;
+
+
+
+    list-style: none;
+}
+
+
+#above_the_fold li {
+
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #000000;
+    color: white !important;
+    /* position: absolute; */
+
+    /* width: fit-content; */
+
+
+
+    list-style: none;
+}
+
+#above_the_fold b {
+    font-size: 32px;
+}
+
+#above_the_fold a {
+    /* display: inline-block; */
+    font-family: 'Cairo';
+    font-style: normal;
+    color: white !important;
+    /* font-weight: 400; */
+    font-size: 30px;
+    line-height: 60px;
+    margin: auto;
+
+    text-decoration: none;
+    padding: 20px;
+    transition: all 1s;
+
+
+}
+
+#above_the_fold a:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: #ffffff;
+    transition: width .2s ease, background-color .3s ease;
+    /* .5 seonds for changes to the width and background-color */
+    -webkit-transition: width .2s ease, background-color .3s ease;
+    /* Chrome and Safari */
+    -moz-transition: width .2s ease, background-color .3s ease;
+    /* FireFox */
+}
+
+#above_the_fold li:hover a:after {
+    width: 100%;
+    background: #ffffff;
+}
+
+
+#above_the_fold a:hover:after {
+    width: 100%;
+    background: #ffffff;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .above_the_fold_img_wrap {
+        left: 0px;
+        right: 0;
+        width: 100%;
+        background-size: 100%;
+        top: -100px;
+
+        /* position: fixed; */
+    }
+
+    #above_the_fold {
+        padding: 0;
+        height: 100vh;
+
+    }
+
+    .above_the_fold_text_wrap {
+        font-size: 17px;
+        width: 300px;
+        margin-left: 12%;
+        margin-top: 40%;
+    }
+
+    #above_the_fold ul {
+        display: none;
+    }
+}
+
+
+
+/* navbar */
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+
+
+}
+
+nav h1 {
+    width: fit-content;
+}
+
+.nav_list {}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 60px;
+}
+
+nav li {
+
+    float: right
+}
+
+nav li a {
+    display: block;
+    color: white !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+/* main */
+.main {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.artist_wrap {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.artist_wrap img {
+
+    float: left;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.artist_bio_wrap {
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .artist_wrap {
+        display: block;
+    }
+}
+
+.tools_wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.tool{
+    width: 100%;
+}
+
+.tools_wrap p {
+    height: fit-content;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    width: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
