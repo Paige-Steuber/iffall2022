@@ -140,7 +140,7 @@ body {
 
     #above_the_fold {
         padding: 0;
-        height: 100vh;
+        height: 80vh;
 
     }
 
@@ -209,6 +209,38 @@ nav li a {
 
 }
 
+#myLinks{
+    display: none;
+    font-size: 15px;
+    color: white;
+
+    
+}
+
+#myLinks li{
+    float: none;
+    padding: 0;
+    width: fit-content;
+    display: inline;
+
+}
+#myLinks a{
+    display: block;
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px !important;
+  
+}
+
+#myLinks br{ 
+    margin-left: 10px;
+    margin-top: 30px !important;
+  }
+
+#myLinks ul{
+  height: 175px;
+}
+
 @media only screen and (max-width: 600px) {
     #hamburger{
         display: flex;
@@ -227,7 +259,10 @@ nav li a {
     }
     nav {
         max-width: 100%;
+        position: fixed;
     }
+
+   
 
     
 }
