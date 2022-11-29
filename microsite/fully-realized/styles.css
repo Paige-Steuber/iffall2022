@@ -360,7 +360,7 @@ nav li a {
 }
 
 .block_3{
-margin-top: -600px;
+margin-top: -550px;
 height: fit-content;
 }
 
@@ -369,13 +369,19 @@ height: fit-content;
 }
 
 @media only screen and (max-width: 600px) {
-    #history{
+    #history_entries{
         display: block;
     }
     .history_block{
-        width: 80%;
+        width: 90%;
     }
+    .block_2 , .block_1, .block_3, .block_4{
+        margin-top: 20px;
+    }
+
+    
 }
+
 
 h2{
     font-size: 18px;
@@ -429,15 +435,30 @@ h1:first{
  */
 
 #sources{
+    display: block;
+    position: relative;
+    bottom: 0;
     box-sizing: border-box;
     margin-left: 0;
     margin-right: 0;
 }
 
 
+
+
 .main {
     margin-left: 12%;
     margin-right: 12%;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        padding-top: 50px;
+    }
+    #sources a{
+        display: block;
+        font-size: xx-small;
+    }
 }
 
 
