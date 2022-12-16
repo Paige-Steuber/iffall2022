@@ -134,6 +134,11 @@ h2 {
     margin: 3px;
 }
 @media only screen and (max-width: 600px) {
+    .intro_wrap{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .intro_wrap h4 {
         font-size: 13px;
         margin: 0;
@@ -312,6 +317,28 @@ h2 {
         margin: 0;
         line-height: 17px;
     }
+    .review_wrap{
+        
+        display: block;
+    }
+
+    .reviews{
+        /* background-color: aqua; */
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        
+        
+    }
+
+    .review_image{
+       display: none;
+        
+    }
+    
 }
 
 .reviews p{
